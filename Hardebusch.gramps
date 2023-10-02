@@ -3,7 +3,7 @@
 "http://gramps-project.org/xml/1.7.1/grampsxml.dtd">
 <database xmlns="http://gramps-project.org/xml/1.7.1/">
   <header>
-    <created date="2020-03-10" version="5.1.2"/>
+    <created date="2023-10-02" version="AIO64-5.1.6-1"/>
     <researcher>
     </researcher>
   </header>
@@ -544,21 +544,20 @@
       <type>Birth</type>
       <dateval val="1953-06-27"/>
     </event>
-    <event handle="_e67a4762aad6e145278d6165abc" change="1583830362" id="E0120">
-      <type>Marriage</type>
-      <dateval val="2020-02-20"/>
-      <place hlink="_e67a45d80133d17bf9da506b14f"/>
+    <event handle="_f6cc6139c687d1cbaaa7709d3b4" change="1695985405" id="E0119">
+      <type>Death</type>
+      <dateval val="2023-08-21"/>
+      <place hlink="_ad83c0eaf1539901b23fff09ad"/>
     </event>
   </events>
-  <people home="_ad83c4eb2776cfe42908d18554c">
-    <person handle="_ad83bb3367568f0102c622c32f4" change="1583830330" id="I0057">
+  <people home="_ad83bb3367568f0102c622c32f4">
+    <person handle="_ad83bb3367568f0102c622c32f4" change="1567361609" id="I0057">
       <gender>M</gender>
       <name type="Birth Name">
         <first>[Lebt]</first>
         <surname>Hardebusch</surname>
       </name>
       <childof hlink="_ad83bfa81aa3b68ef90a1aaad44"/>
-      <parentin hlink="_e67a46a12cc3c86e28fba50c64b"/>
     </person>
     <person handle="_ad83c0f7d6858174549ade09afd" change="1567361609" id="I0011">
       <gender>M</gender>
@@ -587,12 +586,14 @@
       <childof hlink="_ad8d22bef2556fd9894b8ea398f"/>
       <parentin hlink="_ad83c25e6b767364af28bd22e30"/>
     </person>
-    <person handle="_ad83c3530b326770a072e07114e" change="1567361609" id="I0001">
+    <person handle="_ad83c3530b326770a072e07114e" change="1695985414" id="I0001">
       <gender>F</gender>
       <name type="Birth Name">
-        <first>[Lebt]</first>
+        <first>Inge</first>
         <surname>Menger</surname>
       </name>
+      <eventref hlink="_ad83cb8da4051aab9ab37770b8" role="Primary"/>
+      <eventref hlink="_f6cc6139c687d1cbaaa7709d3b4" role="Primary"/>
       <childof hlink="_ad8d27c960c39c6230ad66ec439"/>
       <parentin hlink="_ad83c25e6b767364af28bd22e30"/>
     </person>
@@ -1182,14 +1183,13 @@
       <eventref hlink="_e1a72f99102743458844700bef5" role="Primary"/>
       <parentin hlink="_e1a72f6e225256b6908bc1fea96"/>
     </person>
-    <person handle="_e414abc343d507e107a6e564e15" change="1583830311" id="I0018">
+    <person handle="_e414abc343d507e107a6e564e15" change="1567361609" id="I0018">
       <gender>F</gender>
       <name type="Birth Name">
         <first>[Lebt]</first>
         <surname>Gilb</surname>
       </name>
       <childof hlink="_e414b388bf42bf787c8620f9484"/>
-      <parentin hlink="_e67a46a12cc3c86e28fba50c64b"/>
     </person>
     <person handle="_e414b39149e8db10019b9c0b16" change="1567361609" id="I0035">
       <gender>M</gender>
@@ -1424,11 +1424,6 @@
       <mother hlink="_e414b427bd24e11d8ded0d87658"/>
       <childref hlink="_e414abc343d507e107a6e564e15"/>
     </family>
-    <family handle="_e67a46a12cc3c86e28fba50c64b" change="1583830364" id="F0034">
-      <rel type="Married"/>
-      <father hlink="_ad83bb3367568f0102c622c32f4"/>
-      <mother hlink="_e414abc343d507e107a6e564e15"/>
-    </family>
   </families>
   <places>
     <placeobj handle="_ad83be2258042f6b4233c452914" change="1567361610" id="P0000" type="Unknown">
@@ -1546,9 +1541,6 @@
     </placeobj>
     <placeobj handle="_e414b3fdc465c2581b8ae830001" change="1567361610" id="P0017" type="Unknown">
       <pname value="Rheinzabern"/>
-    </placeobj>
-    <placeobj handle="_e67a45d80133d17bf9da506b14f" change="1583830201" id="P0030" type="Unknown">
-      <pname value="Dortmund"/>
     </placeobj>
   </places>
 </database>
